@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="images/1-1.png" type="image/png">
+    <title>Shop</title>
+</head>
+<body>
+    <div class="top">
+        <div class="navigator-bar" id="navigator-bar">
+            <a onclick="hidemenue()" class="x">X</a>
+            <hr class="mo-onley" id="mo-onley">
+            <a href="" class="nav-a">Team</a>
+            <hr class="mo-onley">
+            <a href="" class="nav-a">Bewerbung</a>
+            <hr class="mo-onley">
+            <a href="/index.html#mittel" class="nav-a">Info</a>
+            <hr class="mo-onley">
+            <a href="/index.html" class="nav-a">Home</a>
+            <hr class="mo-onley">
+            <a href="" class="nav-a">News</a>
+            <hr class="mo-onley">
+        </div>
+        <a href="/index.html"><img src="images/1-1_no_bg.png" alt="" class="icon1"></a>
+        <a onclick="showmenue()" id="showmenue" class="icon"><img src="images/1-1_no_bg.png" alt="" class="icon"></a>
+        <h1 class="banner2">Comming Soon</h1>
+    </div>
+
+    <div class="bottom">
+        <div class="info-bottom">
+            <div class="logos">
+                <a href="" ><img src="images/dc.png" alt="" class="media-logos"></a>
+                <a href="" ><img src="images/tt.png" alt="" class="media-logos"></a>
+                <a href="" ><img src="images/yt.png" alt="" class="media-logos"></a>
+                <a href="" class="im">Impresum</a>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script>
+    document.getElementById("navigator-bar").style.left = "-400px";
+    document.getElementById("showmenue").style.left = "0px";
+    function hidemenue(){
+        document.getElementById("navigator-bar").style.left = "-400px";
+        document.getElementById("showmenue").style.left = "0px";
+    }
+    function showmenue(){
+        document.getElementById("navigator-bar").style.left = "0px";
+        document.getElementById("showmenue").style.left = "-400px";
+    }
+</script>
+</html>
