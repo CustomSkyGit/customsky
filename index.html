@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <meta name="description" content="CustomSky a modern Minecraft Server With mutch custom items">
+    <meta name="keywords" content="CustomSky, Minecraft, Minecraft Server, CustomSky.Net">
+    <meta name="author" content="PandiMini">
+    <title>CustomSky</title>
+</head>
+<body>
+    <div class="top">
+        <div class="navigator-bar" id="navigator-bar">
+            <a onclick="hidemenue()" class="x">X</a>
+            <hr class="mo-onley" id="mo-onley">
+            <a href="" class="nav-a">Team</a>
+            <hr class="mo-onley">
+            <a href="" class="nav-a">Bewerbung</a>
+            <hr class="mo-onley">
+            <a href="#mittel" class="nav-a">Info</a>
+            <hr class="mo-onley">
+            <a href="" class="nav-a">Shop</a>
+            <hr class="mo-onley">
+            <a href="" class="nav-a">News</a>
+            <hr class="mo-onley">
+        </div>
+        <a href=""><img src="images/1-1_no_bg.png" alt="" class="icon1"></a>
+        <a onclick="showmenue()" id="showmenue" class="icon"><img src="images/1-1_no_bg.png" alt="" class="icon"></a>
+        
+        <img src="images/banner-1.png" class="banner" alt="">
+    </div>
+    <div class="mittel" id="mittel">
+        <div class="info">
+            <div class="info-1">
+                <h2 class="titel-info" >Title</h2>
+                <h4 class="p-info">hir kommt text oder so idk was ich hier als test schreiben sol lol habe jezt a schon text xd <br> so jezt noch mal aber was schreiben den jezt hier idk ich mag pandas</h4>    
+                
+            </div>
+            <div class="info-2">
+                <h2 class="titel-info">Wichtig</h2>
+                <h4 class="p-info">Pandas Pandas Pandas Pandas Pandas Pandas Pandas Pandas Pandas Pandas Pandas <br>Pandas Pandas Pandas Pandas Pandas Pandas Pandas Pandas Pandas Pandas Pandas  </h4>
+                
+            </div>
+            <div class="info-3">
+                <h2 class="titel-info">Wichtiger</h2>
+                <h4 class="p-info">minecraft minecraft minecraft minecraft minecraft minecraft minecraft minecraft minecraft <br> minecraft minecraft minecraft minecraft minecraft minecraft minecraft minecraft minecraft  </h4>
+                
+            </div>
+        </div>
+        
+    </div>
+    <div class="bottom">
+        <div class="info-bottom">
+            <div class="logos">
+                <a href="" ><img src="images/dc.png" alt="" class="media-logos"></a>
+                <a href="" ><img src="images/tt.png" alt="" class="media-logos"></a>
+                <a href="" ><img src="images/yt.png" alt="" class="media-logos"></a>
+                <a href="" class="im">Impresum</a>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    document.getElementById("navigator-bar").style.left = "-400px";
+    document.getElementById("showmenue").style.left = "0px";
+    function hidemenue(){
+        document.getElementById("navigator-bar").style.left = "-400px";
+        document.getElementById("showmenue").style.left = "0px";
+    }
+    function showmenue(){
+        document.getElementById("navigator-bar").style.left = "0px";
+        document.getElementById("showmenue").style.left = "-400px";
+    }
+</script>
+</html>
